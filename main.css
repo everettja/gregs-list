@@ -1,0 +1,136 @@
+.container {
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #eee;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	font-size: 18px;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Noto Sans", sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 80px;
+}
+
+.top-nav {
+	list-style-type: none;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	margin-top: 5px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+h3 {
+	position: absolute;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	vertical-align: middle;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+nav li::after {
+	content: " ";
+	margin-left: 10px;
+}
+
+.box {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 6px;
+}
+
+input {
+	width: 400px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	height: 30px;
+}
+
+.search-btn {
+	vertical-align: bottom;
+	height: 30px;
+	border-radius: 4px;
+	background-color: white;
+	border: 1px solid #DDD;
+}
+
+.magnifying-glass-btn {
+	height: 100%;
+}
+
+.pages {
+	margin-bottom: 30px;
+	display: inline-block;
+	font-size: 0px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	height: 38px;
+}
+
+
+.pages-button {
+	padding: 8px 15px;
+	display: inline-block;
+	padding-left: 5px;
+	font-size: 16px;
+	margin-left: -25px;
+}
+
+#problem-child {
+	margin-left: 10px;
+}
+
+.pages-display {
+	padding: 0px 30px;
+	padding: 8px 25px;
+	font-size: 16px;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+}
+
+.results {
+	padding: 0;
+}
+
+.listing {
+	font-size: 16px;
+	font-family: "Noto Sans", sans-serif;
+	margin-bottom: 20px;
+	list-style-type: none;
+}
+
+.listing-date, .listing-location {
+	color: #888;
+}
+
+.listing-title {
+	color: blue;
+	font-weight: bold;
+	padding-left: 8px;
+	padding-right: 8px;
+}
